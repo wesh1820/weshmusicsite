@@ -1,0 +1,57 @@
+columnSuffix: spapzoso
+contentColumnType: string(6)
+fieldGroup: 1b1ae686-2294-4cac-ac35-9ed9d0d37949 # Song
+handle: genre
+instructions: null
+name: genre
+searchable: false
+settings:
+  columnType: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'R&B'
+        -
+          - value
+          - rB
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Pop
+        -
+          - value
+          - pop
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Rock
+        -
+          - value
+          - rock
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Techno
+        -
+          - value
+          - techno
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

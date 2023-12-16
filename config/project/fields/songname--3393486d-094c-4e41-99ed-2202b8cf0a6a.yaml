@@ -1,0 +1,19 @@
+columnSuffix: ehbslwpd
+contentColumnType: text
+fieldGroup: 1b1ae686-2294-4cac-ac35-9ed9d0d37949 # Song
+handle: songname
+instructions: null
+name: songname
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

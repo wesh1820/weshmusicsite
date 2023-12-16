@@ -1,0 +1,63 @@
+dateModified: 1702725262
+email:
+  fromEmail: r0888748@student.thomasmore.be
+  fromName: Weshmusic
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  assets:
+    hasUrls: true
+    name: assets
+    settings:
+      path: '@webroot'
+    type: craft\fs\Local
+    url: '@web'
+meta:
+  __names__:
+    1b1ae686-2294-4cac-ac35-9ed9d0d37949: Song # Song
+    1ff9714b-50b7-4e51-8daf-03b79d6ff501: Artists # Artists
+    2e72029d-5080-4ff2-9108-05efe48aeb55: song # song
+    2ecd2b44-1ed0-4849-ba7e-02010375e469: footer # footer
+    4dda5e9c-e6e0-41fc-a1ac-201ccb37d216: Weshmusic # Weshmusic
+    5b60262a-9b12-4754-948a-ff7c00484877: Videoclip # Videoclip
+    6ad94ee3-38ae-4d76-a065-a46b2fb20049: artist # artist
+    6eb5ea66-91c6-4b0a-b4a4-24730261fbb2: Nationality # Nationality
+    8ed20b0c-c864-4568-8b98-30c67a73f11f: Songs # Songs
+    162e6b9f-7c39-4bd5-bbaa-2ab6424a2e63: Release # Release
+    311d1e75-74ec-4b53-ab5d-7cc2b9ddc4b3: Common # Common
+    651fe6ad-a14c-4bdd-adfa-329f9b102a1b: Weshmusic # Weshmusic
+    676adcea-0585-45c3-aefe-505ff13decbb: Default # Default
+    960c6a6a-ffdd-4be4-9f42-d08ce2cb620f: Albums # Albums
+    2130b846-679f-43ac-b9e7-d67a94aa95d7: photo # photo
+    8380c97d-8ebf-4c20-9ba6-4204813c8958: Default # Default
+    3393486d-094c-4e41-99ed-2202b8cf0a6a: songname # songname
+    8209811f-670e-4755-affe-ea7271ffd33c: genre # genre
+    69929020-ebc8-48c7-9268-3170d575be20: bannerImage # bannerImage
+    71785905-131c-4119-a26b-4effcbda791e: lyrics # lyrics
+    74276596-14a6-44fe-bde8-a89fb9d91d18: text # text
+    a13bd317-ea09-4fc3-8d98-d65a01f856e9: Album # Album
+    aa4403f3-ee91-4621-ba21-e42de0c05165: Default # Default
+    ac2fd902-2879-4171-bee2-7e3ea3c1da11: thumbnailImage # thumbnailImage
+    ccaa36a7-20e9-4bbc-b43c-6a9ce3c1f835: duration # duration
+    d7941150-5e7c-4959-bf54-b9f99800507e: headerImage # headerImage
+    dd912ae1-b1f9-457d-973e-e488032dce32: music-assets # music-assets
+    e5e371fe-98fe-47b8-9148-b889a233fe1c: album # album
+    f7773065-a54b-4f5b-b8ff-5dfcb2fbd49b: banner-image # banner-image
+    fd94a4c8-11db-42a5-9736-a83e75ff2927: Default # Default
+    ffca67d8-e07e-431b-8ff0-393a54a3dc60: Artist # Artist
+plugins:
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: Weshmusic
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

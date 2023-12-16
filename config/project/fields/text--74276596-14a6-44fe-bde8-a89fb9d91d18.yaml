@@ -1,0 +1,19 @@
+columnSuffix: xrgkiwls
+contentColumnType: text
+fieldGroup: 311d1e75-74ec-4b53-ab5d-7cc2b9ddc4b3 # Common
+handle: text
+instructions: null
+name: text
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

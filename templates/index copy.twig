@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #007BFF;
+            color: #ffff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+.music-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.Mu {
+    width: 30%; /* Adjust the width based on your layout preference */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: white; /* Light gray background color */
+}
+
+.Mu h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.Mu p {
+    margin: 5px 0;
+}
+
+.Mu img {
+    max-width: 100%;
+    height: auto;
+}
+
+.button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Music</h1>
+    </header>
+
+    <nav>
+        <a href="index.twig">hOME</a>
+        <a href="Songs.twig">Songs</a>
+        <a href="Artist.twig">Artist</a>
+        <a href="Albums.twig">Albums</a>
+    </nav>
+
+    <section class="music-section">
+        {% set entries = craft.entries().section('song').limit(3) %}
+        {% for entry in entries %} 
+            <article class="Mu">
+                <div>
+                    <h2><a>{{entry.title}}</a></h2>
+                    <p>{{entry.duration}}</p>
+                    <p>{{entry.genre}}</p>
+                    {% set entries = craft.entries().section('album').limit(3) %}
+                    {% for entry in entries %} 
+                        <p>{{entry.title}}</p>
+                    {% endfor %}
+                    {% set entries = craft.entries().section('artist').limit(3) %}
+                    {% for entry in entries %} 
+                        <p>{{entry.title}}</p>
+                    {% endfor %}
+                    <img src="{{ entry.bannerImage.one().url('bannerImage') }}" alt="{{ entry.title }}">
+                    <a href="{{entry.url}}">read more</a>
+                </div>
+            </article>
+        {% endfor %}
+    </section>
+    <footer></footer>
+</body>
+</html>
+
+
+
+{% extends "_layout" %}
+
+{% block content %}
+{% set entries = craft.entries().section('song').limit(3) %}
+        {% for entry in entries %} 
+<img class="musicp" src="https://images.wallpaperscraft.com/image/single/concert_crowd_people_134866_2560x1080.jpg" alt="Description of the image">
+    <section class="mus">
+        <h1>Popular Songs</h1>
+    </section>
+    <section class="music-section">
+            <article class="Mu">
+                <div>
+                <img src="{{ entry.bannerImage.one().url('bannerImage') }}" alt="{{ entry.title }}">
+                    <h2><a>{{entry.title}}</a></h2>
+                    
+                    
+                    
+                    <a href="{{entry.url}}">read more</a>
+                </div>
+                
+            </article>
+
+        {% endfor %}
+    </section>
+        <section class="mus">
+        <h1>Popular Artist</h1>
+    </section>
+    <section class="music-section">
+        {% set entries = craft.entries().section('artist').limit(3) %}
+        {% for entry in entries %} 
+            <article class="Mu">
+                <div>
+                <img src="{{ entry.bannerImage.one().url('bannerImage') }}" alt="{{ entry.title }}">
+                    <h2><a>{{entry.title}}</a></h2>
+                    
+                    
+                    
+                    <a href="{{entry.url}}">read more</a>
+                </div>
+                
+            </article>
+
+        {% endfor %}
+    </section>
+        <section class="mus">
+        <h1>Popular Albums</h1>
+    </section>
+    <section class="music-section">
+        {% set entries = craft.entries().section('album').limit(3) %}
+        {% for entry in entries %} 
+            <article class="Mu">
+                <div>
+                <img src="{{ entry.bannerImage.one().url('bannerImage') }}" alt="{{ entry.title }}">
+                    <h2><a>{{entry.title}}</a></h2>
+                    
+                    
+                    
+                    <a href="{{entry.url}}">read more</a>
+                </div>
+                
+            </article>
+
+        {% endfor %}
+    </section>
+{% endblock %}

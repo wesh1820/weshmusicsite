@@ -1,0 +1,19 @@
+columnSuffix: yemsrhck
+contentColumnType: text
+fieldGroup: ffca67d8-e07e-431b-8ff0-393a54a3dc60 # Artist
+handle: nationality
+instructions: null
+name: Nationality
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

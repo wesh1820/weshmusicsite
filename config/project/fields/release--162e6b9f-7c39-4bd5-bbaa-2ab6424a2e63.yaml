@@ -1,0 +1,19 @@
+columnSuffix: fwuwbulp
+contentColumnType: text
+fieldGroup: a13bd317-ea09-4fc3-8d98-d65a01f856e9 # Album
+handle: release
+instructions: null
+name: Release
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

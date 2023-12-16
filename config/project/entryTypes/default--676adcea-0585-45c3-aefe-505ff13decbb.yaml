@@ -1,0 +1,142 @@
+fieldLayouts:
+  ca992911-9deb-44dd-ada0-026d0bcf594d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 6d780b59-94d9-4c0c-b70c-1c79d9b8d824
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ccaa36a7-20e9-4bbc-b43c-6a9ce3c1f835 # duration
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ebb68eaf-3492-49f4-9464-069fb97e63fb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8209811f-670e-4755-affe-ea7271ffd33c # genre
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 188b7482-7641-4959-9780-ed39096caab4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2130b846-679f-43ac-b9e7-d67a94aa95d7 # photo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6c1a10e8-a951-46bb-a51e-3907458db63e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 960c6a6a-ffdd-4be4-9f42-d08ce2cb620f # Albums
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: afb79c3f-a5cc-4adb-bd42-bae9edd9c21a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1ff9714b-50b7-4e51-8daf-03b79d6ff501 # Artists
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 551895dd-b69f-4b30-a17e-34689e73531b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f7773065-a54b-4f5b-b8ff-5dfcb2fbd49b # banner-image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 145ea974-33ef-40fc-8a83-3ab0039e300b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 71785905-131c-4119-a26b-4effcbda791e # lyrics
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 897e2bd1-19f5-4f48-9d55-385138856be4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5b60262a-9b12-4754-948a-ff7c00484877 # Videoclip
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9fae996f-9c4c-4369-af73-ce2f36b127c2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ec8a92a2-3b7d-419b-af40-8aad3c5b8117
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: 2e72029d-5080-4ff2-9108-05efe48aeb55 # song
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

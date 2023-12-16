@@ -1,0 +1,14 @@
+columnSuffix: rqheylex
+contentColumnType: string(255)
+fieldGroup: 1b1ae686-2294-4cac-ac35-9ed9d0d37949 # Song
+handle: videoclip
+instructions: null
+name: Videoclip
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url
